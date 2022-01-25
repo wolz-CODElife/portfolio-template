@@ -36,4 +36,14 @@
 .hero .right img {
   flex: 1;
   box-shadow: -4px -4px 6px #ccc ;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1193px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .hero .left {
+    min-height: 80vh;
+  }
 }
